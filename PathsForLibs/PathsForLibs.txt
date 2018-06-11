@@ -1,0 +1,16 @@
+Head Files:
+
+C:\Users\auto\Dev\Stock\StockLab\StockLab.MFC\StockLab\\GridCtrl\CGridListCtrlEx
+C:\Users\auto\Dev\Lib\boost\SourceCode\boost_1_66_0
+C:\Users\auto\Apps\PostgreSQL\pg10\include
+C:\Users\auto\Dev\Lib\curl\dist\include
+C:\Users\auto\Dev\Lib\html_tidy\include
+C:\Users\auto\Dev\Lib\pugixml\dist\include
+C:\Users\auto\Dev\Lib\rapidjson\include
+
+Lib Files:
+
+C:\Users\auto\Dev\Lib\boost\SourceCode\boost_1_66_0\stage\lib
+C:\Users\auto\Dev\Lib\curl\dist\lib
+C:\Users\auto\Dev\Lib\pugixml\dist\lib
+C:\Users\auto\Dev\Lib\html_tidy\lib
