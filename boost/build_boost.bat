@@ -25,14 +25,14 @@ if %action%  == 0 (
 )
 
 rem Directory to boost root
-set boost_dir=D:\Dev\GitRepo\GitHub\boost
+set boost_dir=C:/Users/auto/Dev/Lib/boost/src
  
 rem Number of cores to use when building boost
 set cores=%NUMBER_OF_PROCESSORS%
 
-set build_dir=build/%foldername_for_vs%/x64/build
-set stage_dir=build/%foldername_for_vs%/x64/stage
-set install_dir=D:/Dev/Lib/boost/%foldername_for_vs%/x64
+set build_dir=../build/%foldername_for_vs%/x64/build
+set stage_dir=../build/%foldername_for_vs%/x64/stage
+set install_dir=C:/Users/auto/Dev/Lib/dist/boost/%foldername_for_vs%/x64
 
 echo Source Code Dir: %boost_dir%
 echo Build Dir: %build_dir%
@@ -43,9 +43,9 @@ echo Cores for building: %cores%
 echo Building Start
  
 cd "%boost_dir%"
-rem call bootstrap.bat
+call bootstrap.bat
  
-rem Most libraries can be static libs
-b2 -j%cores% toolset=%toolset% address-model=64 architecture=x86 threading=multi variant=debug,release link=static,shared runtime-link=shared install --build-dir="%build_dir%" --stagedir="%stage_dir%" --prefix="%install_dir%"
- 
+rem Most libraries can be static libs ???
+b2 -j%cores% toolset=%toolset% address-model=64 architecture=x86 threading=multi variant=debug,release link=shared runtime-link=shared install --build-dir="%build_dir%" --stagedir="%stage_dir%" --prefix="%install_dir%"
+
 pause
