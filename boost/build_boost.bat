@@ -5,7 +5,7 @@ echo Actions:
 echo 0. Quit
 echo 1. VS2015
 echo 2. VS2017
-set /p action="Please an action: "
+set /p action="Please select an action: "
 
 if %action%  == 0 (
     goto :eof
@@ -24,15 +24,14 @@ if %action%  == 0 (
     )
 )
 
-rem Directory to boost root
-set boost_dir=C:/Users/auto/Dev/Lib/boost/src
- 
-rem Number of cores to use when building boost
-set cores=%NUMBER_OF_PROCESSORS%
+rem Directories
+set boost_dir=D:\Dev\Lib\boost\boost_1_68_0
+set build_dir=..\build\%foldername_for_vs%\x64\build
+set stage_dir=..\build\%foldername_for_vs%\x64\stage
+set install_dir=..\dist\%foldername_for_vs%\x64
 
-set build_dir=../build/%foldername_for_vs%/x64/build
-set stage_dir=../build/%foldername_for_vs%/x64/stage
-set install_dir=C:/Users/auto/Dev/Lib/dist/boost/%foldername_for_vs%/x64
+rem Number of cores for building
+set cores=%NUMBER_OF_PROCESSORS%
 
 echo Source Code Dir: %boost_dir%
 echo Build Dir: %build_dir%
@@ -41,7 +40,7 @@ echo Install Dir: %install_dir%
 echo Toolset: %toolset%
 echo Cores for building: %cores%
 echo Building Start
- 
+
 cd "%boost_dir%"
 call bootstrap.bat
  
