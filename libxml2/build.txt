@@ -1,1 +1,1 @@
-cscript configure.js zlib=yes legacy=no prefix=C:\Users\auto\Dev\Lib\dist\libxml2 include=C:\Users\auto\Dev\Lib\dist\zlib\include;C:\Users\auto\Dev\Lib\dist\libiconv\include lib=C:\Users\auto\Dev\Lib\dist\zlib\lib;C:\Users\auto\Dev\Lib\dist\libiconv\lib
+cscript configure.js zlib=yes legacy=no prefix=C:\Users\Disc\Dev\Lib\dist\libxml2 include=C:\Users\Disc\Dev\Lib\dist\zlib\include;C:\Users\Disc\Dev\Lib\dist\libiconv\include lib=C:\Users\Disc\Dev\Lib\dist\zlib\lib;C:\Users\Disc\Dev\Lib\dist\libiconv\lib
