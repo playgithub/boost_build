@@ -32,10 +32,11 @@ if %action%  == 0 (
 
 rem Directories
 set lib_root_folder_path=C:\Users\disc\Dev\lib
+set boost_root_folder_path=%lib_root_folder_path%\src\boost
 set boost_folder_name=boost_1_72_0
-set source_folder_path=%lib_root_folder_path%\src\%boost_folder_name%
-set build_folder_path=%lib_root_folder_path%\build\%boost_folder_name%\%folder_name_for_vs%\x64\build
-set stage_folder_path=%lib_root_folder_path%\build\%boost_folder_name%\%folder_name_for_vs%\x64\stage
+set source_folder_path=%boost_root_folder_path%\%boost_folder_name%
+set build_folder_path=%boost_root_folder_path%\build\%boost_folder_name%\%folder_name_for_vs%\x64\build
+set stage_folder_path=%boost_root_folder_path%\build\%boost_folder_name%\%folder_name_for_vs%\x64\stage
 set install_folder_path=%lib_root_folder_path%\dist\%boost_folder_name%\%folder_name_for_vs%\x64
 
 rem Number of cores for building
