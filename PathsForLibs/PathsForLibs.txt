@@ -20,10 +20,11 @@ C:\Users\auto\Dev\Lib\html_tidy\lib
 
 Bin Paths:
 
-C:\Users\auto\Dev\Lib\wxWidgets\Installed\lib\vc_x64_dll
-C:\Users\auto\Dev\Lib\dist\boost\VS2017\x64\lib
-C:\Users\auto\Apps\PostgreSQL\10\bin
-C:\Users\auto\Dev\Lib\dist\libcurl\bin
-C:\Users\auto\Dev\Lib\dist\libxml2\bin
-C:\Users\auto\Dev\Lib\dist\libiconv\bin
-C:\Users\auto\Dev\Lib\dist\zlib\bin
+%USERPROFILE%\Dev\lib\dist\boost_1_72_0\VS2019\x64\lib
+%USERPROFILE%\Dev\lib\dist\curl\bin
+%USERPROFILE%\Dev\lib\dist\openssl\bin
+%USERPROFILE%\Dev\lib\dist\postgresql-11.6-1-windows-x64-binaries\pgsql\bin
+%USERPROFILE%\Dev\lib\dist\postgresql-11.6-1-windows-x64-binaries\pgsql\lib
+%USERPROFILE%\Dev\lib\dist\protobuf\bin
+%USERPROFILE%\Dev\lib\dist\wxWidgets\lib\vc_x64_dll
+%USERPROFILE%\Dev\lib\dist\zlib\bin
