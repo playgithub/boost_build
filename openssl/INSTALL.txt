@@ -1,7 +1,7 @@
 # debug
-perl ..\openssl-1.1.1d\Configure --debug --prefix=C:\Users\disc\Dev\lib\dist\openssl --openssldir=C:\Users\disc\Dev\lib\dist\openssl\SSL VC-WIN64A no-tests
+perl ..\openssl.git\Configure --debug --prefix=C:\Users\disc\Dev\lib\dist\openssl --openssldir=C:\Users\disc\Dev\lib\dist\openssl\SSL VC-WIN64A no-tests
 nmake && nmake install
 
 # release
-perl ..\openssl-1.1.1d\Configure --release --prefix=C:\Users\disc\Dev\lib\dist\openssl --openssldir=C:\Users\disc\Dev\lib\dist\openssl\SSL VC-WIN64A no-tests
+perl ..\openssl.git\Configure --release --prefix=C:\Users\disc\Dev\lib\dist\openssl --openssldir=C:\Users\disc\Dev\lib\dist\openssl\SSL VC-WIN64A no-tests
 nmake && nmake install
